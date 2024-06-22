@@ -1,0 +1,43 @@
+[textrules]
+header_copyright = false
+style_directives = true
+style_semicolon = false
+style_textwidth = false
+
+
+[syntaxrules]
+blocking_assignment_in_always_at_edge = true
+blocking_assignment_in_always_ff = true
+blocking_assignment_in_always_latch = true
+non_blocking_assignment_in_always_comb = true
+case_default = true
+explicit_case_default = true
+enum_with_type = true
+function_with_automatic = true
+operator_case_equality = true
+procedural_continuous_assignment = true
+eventlist_comma_always_ff = true
+function_same_as_system_function = true
+general_always_no_edge = true
+genvar_declaration_in_loop = false
+genvar_declaration_out_loop = true
+keyword_forbidden_always = true
+keyword_forbidden_wire_reg = true
+keyword_required_generate = true
+loop_statement_in_always_comb = true
+loop_statement_in_always_ff = true
+loop_statement_in_always_latch = true
+module_nonansi_forbidden = true
+multiline_if_begin = true
+multiline_for_begin = true
+sequential_block_in_always_comb = true
+style_commaleading = false
+style_indent = true
+style_keyword_1or2space = true
+style_keyword_construct = true
+style_operator_arithmetic = true
+style_operator_unary = true
+style_trailingwhitespace = true
+tab_character = true
+
+
